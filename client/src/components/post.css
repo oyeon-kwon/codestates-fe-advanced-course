@@ -1,0 +1,73 @@
+.posts {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.post-title {
+    width: 80%;
+    margin: 3rem auto 0 auto;
+    font-weight: 800;
+}
+
+.post-userId {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-bottom: 2px solid #dedede;
+    text-align: right;
+    font-size: 0.7rem;
+}
+
+.post-content {
+    width: 80%;
+    margin: 0 auto 2rem auto;
+    padding-top: 2rem;
+    border-bottom: 2px solid #dedede;
+}
+
+.comment-count {
+    color: #8e8e8e;
+    font-size: 0.7rem;
+    text-align: right;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.comment-input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.comment-view-box {
+    margin: 0 auto 1rem auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #dedede;
+}
+
+.comment-name {
+    font-weight: 500;
+}
+
+.comment-body {
+    font-weight: 200;
+}
