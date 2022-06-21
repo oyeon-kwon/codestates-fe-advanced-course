@@ -9,6 +9,7 @@ import {
   Link
 } from 'react-router-dom';
 import axios from 'axios';
+import Pagination from './components/Pagination';
 
 function App () {
   const [posts, setPosts] = useState([]);
@@ -37,13 +38,15 @@ function App () {
           </span>
         </div>
         <Routes>
+          <Route path='/' element={<Feed posts={posts} />} />
+        </Routes>
+        <Routes>
           <Route path='/posts' element={<Feed posts={posts} />} />
         </Routes>
         <Routes>
           <Route path='/images' element={<Image images={images} />} />
         </Routes>
       </Router>
-      POST 혹은 IMAGE 탭을 클릭하세요.
     </div>
   );
 }

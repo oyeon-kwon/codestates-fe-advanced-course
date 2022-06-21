@@ -1,0 +1,29 @@
+.page-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.button {
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 8px;
+    width: 1rem;
+    margin: 0.3rem;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.button:hover {
+    background: #4000c7;
+    color: #ffffff;
+    cursor: pointer;
+    transform: translateY(-2px);
+  }
+
+.focused {
+    background: #4000c7;
+    color: #ffffff;
+    font-weight: bold;
+}
