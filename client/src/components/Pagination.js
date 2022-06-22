@@ -15,8 +15,11 @@ function Pagination ({ total, limit, page, setPage }) {
             <div
               className={page === i + 1 ? 'button focused' : 'button'}
               key={i + 1}
-              onClick={() => setPage(i + 1)}
-              aria-current={page === i + 1 ? 'page' : null}
+              onClick={() => {
+                  setPage(i + 1)
+                  window.scrollTo(0,0)
+              }    
+            }
             >
               {i + 1}
             </div>
